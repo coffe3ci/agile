@@ -18,21 +18,20 @@ public class OverzichtenController : ControllerBase
     [HttpGet("kok")]
     public ActionResult<List<OverzichtRegel>> GetKok()
     {
-        var regels = _overzichten.GetVoorOber();
+        var regels = _overzichten.GetVoorKok();
 
         // @TODO: Test of de prijs in Nederlandse valuta word getoond
-        Console.WriteLine(regels.ToArray()[0].MenuItemNaam);
-
+        
         return Ok(regels);
     }
 
     [HttpGet("ober")]
     public ActionResult<List<OverzichtRegel>> GetOber()
     {
-        var regels = _overzichten.GetVoorKok();
+        var regels = _overzichten.GetVoorOber();
 
         // @TODO: Test of de prijs in Nederlandse valuta word getoond
-        Console.WriteLine(regels.ToArray()[0].MenuItemNaam);
+       
 
         return Ok(regels);
     }

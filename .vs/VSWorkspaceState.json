@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\src",
+    "\\app\\src\\ExcellentTaste.Api",
+    "\\app\\src\\ExcellentTaste.Api\\Controllers",
+    "\\app\\src\\ExcellentTaste.Web",
+    "\\app\\src\\ExcellentTaste.Web\\Controllers",
+    "\\app\\src\\ExcellentTaste.WinForms",
+    "\\app\\src\\ExcellentTaste.WinForms\\Api",
+    "\\app\\src\\ExcellentTaste.WinForms\\Properties"
+  ],
+  "SelectedNode": "\\app\\src\\ExcellentTaste.WinForms\\Form1.cs",
+  "PreviewInSolutionExplorer": false
+}

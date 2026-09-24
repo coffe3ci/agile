@@ -57,7 +57,7 @@ Standaard gebruikt de API de normale XAMPP-instellingen:
 
 ```text
 Server=127.0.0.1
-Port=3306
+Port=3308
 Database=excellenttaste_db
 User ID=root
 Password=
